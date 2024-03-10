@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     {
         go(4)
     }
-    fun go(n:Int)
+    fun go(n:Int)//this function takes us to next activity
     {
         var i=Intent(this,BaseCampTent::class.java)
         i.putExtra("select",n);

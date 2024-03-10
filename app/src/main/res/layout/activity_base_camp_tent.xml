@@ -39,7 +39,7 @@
             android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/heartpurple" />
+            app:srcCompat="@drawable/heart" />
     </RelativeLayout>
 
     <ScrollView
@@ -140,7 +140,7 @@
                 android:layout_height="match_parent"
 
                 android:layout_weight="0.3"
-                android:background="#724cf6"
+                android:background="#151617"
                 android:gravity="center"
                 android:onClick="cli1"
                 android:orientation="vertical">

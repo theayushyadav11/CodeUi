@@ -320,7 +320,7 @@
                         android:layout_margin="5dp"
                         android:fontFamily="sans-serif-medium"
                         android:paddingStart="10dp"
-                        android:text="Base Camp - 4 personn tent"
+                        android:text="Base Camp - 4 person tent"
                         android:textColor="@color/black"
                         android:textSize="20sp" />
 

@@ -13,6 +13,7 @@ lateinit var hourlyll:LinearLayout
 lateinit var dailyll:LinearLayout
 lateinit var monthlyll:LinearLayout
 lateinit var mainImg:ImageView
+lateinit var  ImageView2:ImageView
 lateinit var Title:TextView
 lateinit var hrRate:TextView
 lateinit var daRate:TextView
@@ -36,6 +37,7 @@ class BaseCampTent : AppCompatActivity() {
         hourly=findViewById(R.id.hourly)
         daily=findViewById(R.id.daily)
         monthly=findViewById(R.id.monthly)
+        ImageView2=findViewById(R.id.imageView2)
 
 
         var i=intent
@@ -51,6 +53,7 @@ class BaseCampTent : AppCompatActivity() {
         if(select==2)
         {
             mainImg.setImageResource(R.drawable.tent)
+            ImageView2.setImageResource(R.drawable.heartpurple)
             Title.setText("Base Camp Tent")
             hrRate.setText(" ₹250 ")
             daRate.setText(" ₹1250")
@@ -78,7 +81,7 @@ class BaseCampTent : AppCompatActivity() {
     fun cli1(view : View)
     {
 
-     hourlyll.setBackgroundColor(Color.parseColor("#724cf6"))
+     hourlyll.setBackgroundColor(Color.parseColor("#151617"))
         dailyll.setBackgroundColor(Color.parseColor("#f1eef4"))
         monthlyll.setBackgroundColor(Color.parseColor("#f1eef4"))
         hourly.setTextColor(Color.WHITE)
@@ -91,7 +94,7 @@ class BaseCampTent : AppCompatActivity() {
     fun cli2(view : View)
     {
 
-        dailyll.setBackgroundColor(Color.parseColor("#724cf6"))
+        dailyll.setBackgroundColor(Color.parseColor("#151617"))
         hourlyll.setBackgroundColor(Color.parseColor("#f1eef4"))
         monthlyll.setBackgroundColor(Color.parseColor("#f1eef4"))
         daily.setTextColor(Color.WHITE)
@@ -107,7 +110,7 @@ class BaseCampTent : AppCompatActivity() {
     fun cli3(view : View)
     {
 
-        monthlyll.setBackgroundColor(Color.parseColor("#724cf6"))
+        monthlyll.setBackgroundColor(Color.parseColor("#151617"))
         dailyll.setBackgroundColor(Color.parseColor("#f1eef4"))
         hourlyll.setBackgroundColor(Color.parseColor("#f1eef4"))
         monthly.setTextColor(Color.WHITE)
